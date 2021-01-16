@@ -62,6 +62,12 @@ Building Baritone:
 $ gradlew build
 ```
 
+For minecraft 1.15.2+, you need to run the following instead if you want to include the Forge jars:
+
+```
+$ gradlew build -Pbaritone.forge_build
+```
+
 Running Baritone:
 
 ```
